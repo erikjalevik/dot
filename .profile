@@ -1,4 +1,8 @@
+# .profile should contain settings that are valid for all shells.
+
 # --- Exports ---
+
+export EDITOR=$(which nano)
 
 # Set 64-bit arch by default
 export ARCHFLAGS="-arch x86_64"
@@ -13,7 +17,7 @@ alias ll='ls -lAGh'
 alias ff='find / -name $1 2>/dev/null'
 
 # Without the --no-install, npx silently and automatically installs things globally
-alias npx="npx --no-install $@"
+alias npx='npx --no-install $@'
 
 # --- Initialisation ---
 

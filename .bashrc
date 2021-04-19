@@ -1,3 +1,6 @@
+# Make sure we get aliases etc in each terminal we open
+source ~/.profile
+
 # --- Shell config ---
 
 function setPrompt {
