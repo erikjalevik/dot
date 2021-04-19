@@ -19,6 +19,3 @@ unsetopt beep
 bindkey -e
 
 # --- Initialisation ---
-
-# fzf
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
