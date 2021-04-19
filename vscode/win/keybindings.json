@@ -1,0 +1,46 @@
+[
+  {
+    "key": "ctrl+b",
+    "command": "-workbench.action.toggleSidebarVisibility"
+  },
+  {
+    "key": "ctrl+b",
+    "command": "workbench.files.action.showActiveFileInExplorer"
+  },
+  {
+    "key": "alt+oem_comma",
+    "command": "workbench.action.navigateBack"
+  },
+  {
+    "key": "alt+left",
+    "command": "-workbench.action.navigateBack"
+  },
+  {
+    "key": "alt+oem_period",
+    "command": "workbench.action.navigateForward"
+  },
+  {
+    "key": "alt+right",
+    "command": "-workbench.action.navigateForward"
+  },
+  {
+    "key": "ctrl+i",
+    "command": "editor.action.formatSelection",
+    "when": "editorHasDocumentSelectionFormattingProvider && editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+k ctrl+f",
+    "command": "-editor.action.formatSelection",
+    "when": "editorHasDocumentSelectionFormattingProvider && editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+alt+i",
+    "command": "editor.action.formatDocument",
+    "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inCompositeEditor"
+  },
+  {
+    "key": "shift+alt+f",
+    "command": "-editor.action.formatDocument",
+    "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inCompositeEditor"
+  }
+]
