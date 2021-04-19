@@ -2,4 +2,4 @@ The `settings.json` and `keybindings.json` files need to be copied to the follow
 
 - Windows: `%APPDATA%\Code\User\`
 - macOS: `$HOME/Library/Application Support/Code/User/`
-- Linux: `$HOME/.config/Code/User/`
+- Linux: `$HOME/.config/Code - OSS/User/`
