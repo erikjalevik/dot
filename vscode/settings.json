@@ -1,0 +1,37 @@
+{
+  "breadcrumbs.enabled": true,
+  "editor.wordWrap": "off",
+  "editor.minimap.enabled": false,
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+  "editor.snippetSuggestions": "top",
+  "editor.renderWhitespace": "all",
+  "editor.renderControlCharacters": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "editor.quickSuggestions": true,
+  "editor.hover.enabled": true,
+  "editor.parameterHints": false,
+  "editor.detectIndentation": false,
+  "explorer.openEditors.visible": 25,
+  "explorer.autoReveal": false,
+  "extensions.ignoreRecommendations": true,
+  // https://github.com/Microsoft/vscode/issues/36987
+  "terminal.integrated.shellArgs.osx": [],
+  "window.title": "${activeEditorMedium}${separator}${rootName}",
+  "workbench.editor.showTabs": false,
+  "workbench.editor.labelFormat": "medium",
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "workbench.editor.limit.perEditorGroup": true,
+  "workbench.editor.limit.enabled": true,
+  "eslint.alwaysShowStatus": true,
+  "eslint.lintTask.enable": true,
+  "eslint.validate":[
+    "html",
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ]
+}
