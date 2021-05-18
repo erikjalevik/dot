@@ -4,7 +4,7 @@
     "command": "-workbench.action.navigateBack"
   },
   {
-    "key": "ctrl+,",
+    "key": "alt+,",
     "command": "workbench.action.navigateBack"
   },
   {
@@ -12,7 +12,7 @@
     "command": "-workbench.action.navigateForward"
   },
   {
-    "key": "ctrl+.",
+    "key": "alt+.",
     "command": "workbench.action.navigateForward"
   },
   {
