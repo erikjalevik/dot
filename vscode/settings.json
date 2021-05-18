@@ -33,5 +33,6 @@
     "javascriptreact",
     "typescript",
     "typescriptreact"
-  ]
+  ],
+  "bookmarks.navigateThroughAllFiles": false
 }
