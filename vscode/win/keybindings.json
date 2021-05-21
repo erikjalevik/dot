@@ -42,5 +42,13 @@
     "key": "shift+alt+f",
     "command": "-editor.action.formatDocument",
     "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inCompositeEditor"
+  },
+  {
+    "key": "ctrl+m",
+    "command": "workbench.action.gotoSymbol"
+  },
+  {
+    "key": "shift+ctrl+o",
+    "command": "-workbench.action.gotoSymbol"
   }
 ]
