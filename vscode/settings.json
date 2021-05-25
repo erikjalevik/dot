@@ -3,7 +3,7 @@
   "editor.wordWrap": "off",
   "editor.minimap.enabled": false,
   "editor.tabSize": 2,
-  "editor.formatOnSave": true,
+  "editor.formatOnSave": false,
   "editor.snippetSuggestions": "top",
   "editor.renderWhitespace": "all",
   "editor.renderControlCharacters": true,
@@ -27,7 +27,7 @@
   "workbench.editor.limit.enabled": true,
   "eslint.alwaysShowStatus": true,
   "eslint.lintTask.enable": true,
-  "eslint.validate":[
+  "eslint.validate": [
     "html",
     "javascript",
     "javascriptreact",
