@@ -14,7 +14,7 @@ export LANG=en_GB.UTF-8
 # --- Aliases ---
 
 alias ll='ls -lAGh --color=auto'
-alias ff='find / -name $1 2>/dev/null'
+alias ff='find . -name $1 2>/dev/null'
 
 # Without the --no-install, npx silently and automatically installs things globally
 alias npx='npx --no-install $@'
