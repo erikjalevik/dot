@@ -1,3 +1,7 @@
+# --- Aliases ---
+
+alias ll='ls -lAGh'
+
 # --- Initialisation ---
 
 # fzf

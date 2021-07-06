@@ -6,6 +6,7 @@ export LS_COLORS="$LS_COLORS:ow=34"
 # --- Aliases ---
 
 alias extscr='xrandr --output DP1 --auto --right-of eDP1'
+alias ll='ls -lAGh --color=auto'
 
 # --- Initialisation ---
 
