@@ -1,5 +1,5 @@
 # Make sure we get aliases etc in each terminal we open
-source ~/.profile
+source ~/dev/dot/.profile
 
 # --- Shell config ---
 
