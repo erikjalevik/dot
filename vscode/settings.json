@@ -34,5 +34,6 @@
     "typescript",
     "typescriptreact"
   ],
-  "bookmarks.navigateThroughAllFiles": false
+  "bookmarks.navigateThroughAllFiles": false,
+  "markdown.preview.breaks": true
 }
