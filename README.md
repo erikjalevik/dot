@@ -39,3 +39,6 @@ Replace the contents of `~/.profile` with the following:
 source ~/dev/dot/.profile
 ```
 
+### VSCode
+
+Follow instructions in `vscode/README`.
