@@ -4,6 +4,8 @@ Home directory configuration files (dot files) for Mac and Linux.
 
 ## How to use
 
+[Install Homebrew](https://brew.sh/).
+
 [Install _nvm_](https://github.com/nvm-sh/nvm#installing-and-updating).
 
 [Install _fzf_](https://github.com/junegunn/fzf#using-homebrew). This generates the files `~/.fzf.bash` and `~/.fzf.zsh`.
