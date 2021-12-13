@@ -43,4 +43,5 @@
     "editor.wordWrap": "on",
     "editor.quickSuggestions": true,
   },
+  "editor.fontSize": 13
 }
