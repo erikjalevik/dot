@@ -90,5 +90,31 @@
     "key": "alt+cmd+f",
     "command": "-editor.action.startFindReplaceAction",
     "when": "editorFocus || editorIsOpen"
+  },
+  {
+    "key": "alt+cmd+2",
+    "command": "workbench.action.editorLayoutTwoColumns"
+  },
+  {
+    "key": "alt+cmd+1",
+    "command": "workbench.action.editorLayoutSingle"
+  },
+  {
+    "key": "alt+cmd+n",
+    "command": "explorer.newFile"
+  },
+  {
+    "key": "alt+cmd+4",
+    "command": "markdown.showPreview",
+    "when": "!notebookEditorFocused && editorLangId == 'markdown'"
+  },
+  {
+    "key": "shift+cmd+v",
+    "command": "-markdown.showPreview",
+    "when": "!notebookEditorFocused && editorLangId == 'markdown'"
+  },
+  {
+    "key": "alt+cmd+3",
+    "command": "markdown.showSource"
   }
 ]
