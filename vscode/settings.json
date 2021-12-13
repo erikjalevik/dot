@@ -35,5 +35,12 @@
     "typescriptreact"
   ],
   "bookmarks.navigateThroughAllFiles": false,
-  "markdown.preview.breaks": true
+  "markdown.preview.breaks": true,
+  "[plaintext]": {
+    "editor.wordWrap": "on"
+  },
+  "[markdown]": {
+    "editor.wordWrap": "on",
+    "editor.quickSuggestions": true,
+  },
 }
