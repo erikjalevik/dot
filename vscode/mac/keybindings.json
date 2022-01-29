@@ -116,5 +116,15 @@
   {
     "key": "alt+cmd+3",
     "command": "markdown.showSource"
+  },
+  {
+    "key": "alt+cmd+5",
+    "command": "markdown.showPreviewToSide",
+    "when": "!notebookEditorFocused && editorLangId == 'markdown'"
+  },
+  {
+    "key": "cmd+k v",
+    "command": "-markdown.showPreviewToSide",
+    "when": "!notebookEditorFocused && editorLangId == 'markdown'"
   }
 ]
