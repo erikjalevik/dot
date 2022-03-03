@@ -60,5 +60,35 @@
     "key": "alt+ctrl+f",
     "command": "-editor.action.startFindReplaceAction",
     "when": "editorFocus || editorIsOpen"
+  },
+  {
+    "key": "ctrl+alt+2",
+    "command": "workbench.action.editorLayoutTwoColumns"
+  },
+  {
+    "key": "ctrl+alt+1",
+    "command": "workbench.action.editorLayoutSingle"
+  },
+  {
+    "key": "ctrl+alt+n",
+    "command": "explorer.newFile"
+  },
+  {
+    "key": "ctrl+alt+4",
+    "command": "markdown.showPreview",
+    "when": "!notebookEditorFocused && editorLangId == 'markdown'"
+  },
+  {
+    "key": "ctrl+shift+v",
+    "command": "-markdown.showPreview",
+    "when": "!notebookEditorFocused && editorLangId == 'markdown'"
+  },
+  {
+    "key": "ctrl+alt+3",
+    "command": "markdown.showSource"
+  },
+  {
+    "key": "ctrl+alt+5",
+    "command": "markdown.showLockedPreviewToSide"
   }
 ]
