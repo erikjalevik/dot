@@ -1,0 +1,8 @@
+{
+  "windowColors.🌈 BaseColor": "hsl(185, 100%, 15%)",
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#00464D",
+    "titleBar.activeBackground": "#005B63",
+    "titleBar.activeForeground": "#EBFDFF"
+  }
+}
