@@ -15,9 +15,6 @@ export LANG=en_GB.UTF-8
 
 alias ff='find . -name $1 2>/dev/null'
 
-# Without the --no-install, npx silently and automatically installs things globally
-alias npx='npx --no-install $@'
-
 # --- Initialisation ---
 
 # homebrew
