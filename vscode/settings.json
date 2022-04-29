@@ -44,6 +44,6 @@
     "editor.quickSuggestions": true
   },
   "editor.fontSize": 12,
-  // Stop IntelliSense suggestion from being applied without choosing them
+  // Stop IntelliSense suggestions from being applied without choosing them
   "editor.acceptSuggestionOnCommitCharacter": false
 }
