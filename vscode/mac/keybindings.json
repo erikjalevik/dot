@@ -126,5 +126,9 @@
     "key": "cmd+k v",
     "command": "-markdown.showPreviewToSide",
     "when": "!notebookEditorFocused && editorLangId == 'markdown'"
+  },
+  {
+    "key": "alt+cmd+[IntlBackslash]",
+    "command": "workbench.action.toggleSidebarVisibility"
   }
 ]
