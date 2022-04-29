@@ -90,5 +90,9 @@
   {
     "key": "ctrl+alt+5",
     "command": "markdown.showLockedPreviewToSide"
+  },
+  {
+    "key": "ctrl+alt+oem_8",
+    "command": "workbench.action.toggleSidebarVisibility"
   }
 ]
