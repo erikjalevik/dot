@@ -41,7 +41,9 @@
   },
   "[markdown]": {
     "editor.wordWrap": "on",
-    "editor.quickSuggestions": true,
+    "editor.quickSuggestions": true
   },
-  "editor.fontSize": 13
+  "editor.fontSize": 12,
+  // Stop IntelliSense suggestion from being applied without choosing them
+  "editor.acceptSuggestionOnCommitCharacter": false
 }
