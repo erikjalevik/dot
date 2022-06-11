@@ -12,7 +12,6 @@
   },
   "editor.quickSuggestions": true,
   "editor.hover.enabled": true,
-  "editor.parameterHints": false,
   "editor.detectIndentation": false,
   "explorer.openEditors.visible": 25,
   "explorer.autoReveal": false,
@@ -43,7 +42,9 @@
     "editor.wordWrap": "on",
     "editor.quickSuggestions": true
   },
-  "editor.fontSize": 12,
-  // Stop IntelliSense suggestions from being applied without choosing them
-  "editor.acceptSuggestionOnCommitCharacter": false
+  "editor.fontSize": 11,
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
