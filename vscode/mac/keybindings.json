@@ -104,7 +104,7 @@
     "command": "explorer.newFile"
   },
   {
-    "key": "alt+cmd+4",
+    "key": "f12",
     "command": "markdown.showPreview",
     "when": "!notebookEditorFocused && editorLangId == 'markdown'"
   },
@@ -114,11 +114,11 @@
     "when": "!notebookEditorFocused && editorLangId == 'markdown'"
   },
   {
-    "key": "alt+cmd+3",
+    "key": "f11",
     "command": "markdown.showSource"
   },
   {
-    "key": "alt+cmd+5",
+    "key": "shift+f12",
     "command": "markdown.showPreviewToSide",
     "when": "!notebookEditorFocused && editorLangId == 'markdown'"
   },
