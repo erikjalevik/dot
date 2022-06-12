@@ -74,7 +74,7 @@
     "command": "explorer.newFile"
   },
   {
-    "key": "ctrl+alt+4",
+    "key": "f12",
     "command": "markdown.showPreview",
     "when": "!notebookEditorFocused && editorLangId == 'markdown'"
   },
@@ -84,15 +84,21 @@
     "when": "!notebookEditorFocused && editorLangId == 'markdown'"
   },
   {
-    "key": "ctrl+alt+3",
+    "key": "f11",
     "command": "markdown.showSource"
-  },
-  {
-    "key": "ctrl+alt+5",
-    "command": "markdown.showLockedPreviewToSide"
   },
   {
     "key": "ctrl+alt+oem_8",
     "command": "workbench.action.toggleSidebarVisibility"
+  },
+  {
+    "key": "shift+f12",
+    "command": "markdown.showPreviewToSide",
+    "when": "!notebookEditorFocused && editorLangId == 'markdown'"
+  },
+  {
+    "key": "ctrl+k v",
+    "command": "-markdown.showPreviewToSide",
+    "when": "!notebookEditorFocused && editorLangId == 'markdown'"
   }
 ]
