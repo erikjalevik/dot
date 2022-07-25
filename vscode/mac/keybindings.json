@@ -118,11 +118,6 @@
     "command": "markdown.showSource"
   },
   {
-    "key": "shift+f12",
-    "command": "markdown.showPreviewToSide",
-    "when": "!notebookEditorFocused && editorLangId == 'markdown'"
-  },
-  {
     "key": "cmd+k v",
     "command": "-markdown.showPreviewToSide",
     "when": "!notebookEditorFocused && editorLangId == 'markdown'"
@@ -130,5 +125,13 @@
   {
     "key": "alt+cmd+[IntlBackslash]",
     "command": "workbench.action.toggleSidebarVisibility"
+  },
+  {
+    "key": "shift+f12",
+    "command": "markdown.showLockedPreviewToSide"
+  },
+  {
+    "key": "cmd+f12",
+    "command": "markdown.preview.toggleLock"
   }
 ]
