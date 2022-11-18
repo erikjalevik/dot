@@ -1,6 +1,6 @@
 # dot
 
-Home directory configuration files (dot files) for Mac and Linux.
+Home directory configuration files (dot files) for Mac and Linux (and Windows for vscode stuff).
 
 ## How to use
 
