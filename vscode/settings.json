@@ -51,6 +51,7 @@
     }
   },
   "editor.fontSize": 11,
+  // Stop IntelliSense suggestions from being applied without choosing them
   "editor.acceptSuggestionOnCommitCharacter": false,
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
