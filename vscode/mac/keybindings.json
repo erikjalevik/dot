@@ -127,11 +127,11 @@
     "command": "workbench.action.toggleSidebarVisibility"
   },
   {
-    "key": "shift+f12",
-    "command": "markdown.showLockedPreviewToSide"
-  },
-  {
     "key": "cmd+f12",
     "command": "markdown.preview.toggleLock"
+  },
+  {
+    "key": "shift+f12",
+    "command": "markdown.showPreviewToSide"
   }
 ]
