@@ -4,9 +4,6 @@
 
 export EDITOR=$(which nano)
 
-# Set 64-bit arch by default
-export ARCHFLAGS="-arch x86_64"
-
 # Workaround needed for Python
 export LC_ALL=en_GB.UTF-8
 export LANG=en_GB.UTF-8
