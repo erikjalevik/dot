@@ -100,5 +100,9 @@
     "key": "ctrl+k v",
     "command": "-markdown.showPreviewToSide",
     "when": "!notebookEditorFocused && editorLangId == 'markdown'"
+  },
+  {
+    "key": "ctrl+f12",
+    "command": "markdown.preview.toggleLock"
   }
 ]
