@@ -20,15 +20,12 @@
   "explorer.openEditors.visible": 25,
   "explorer.autoReveal": false,
   "extensions.ignoreRecommendations": true,
-  // https://github.com/Microsoft/vscode/issues/36987
-  "terminal.integrated.shellArgs.osx": [],
   "window.title": "${activeEditorMedium}${separator}${rootName}",
   "workbench.editor.showTabs": false,
   "workbench.editor.labelFormat": "medium",
   "workbench.editor.enablePreviewFromQuickOpen": false,
   "workbench.editor.limit.perEditorGroup": true,
   "workbench.editor.limit.enabled": true,
-  "eslint.alwaysShowStatus": true,
   "eslint.lintTask.enable": true,
   "eslint.validate": [
     "html",
@@ -51,12 +48,17 @@
     }
   },
   "editor.fontSize": 11,
-  // Stop IntelliSense suggestions from being applied without choosing them
   "editor.acceptSuggestionOnCommitCharacter": false,
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "editor.inlineSuggest.enabled": true,
   "editor.suggest.snippetsPreventQuickSuggestions": false,
-  "editor.wordBasedSuggestions": false
+  "editor.wordBasedSuggestions": false,
+  "svelte.enable-ts-plugin": true,
+  "files.associations": {
+    "*.txt": "plaintext"
+  },
+  "editor.autoClosingQuotes": "never",
+  "cody.telemetry.level": "off"
 }
