@@ -104,5 +104,13 @@
   {
     "key": "ctrl+f12",
     "command": "markdown.preview.toggleLock"
+  },
+  {
+    "key": "ctrl+shift+v",
+    "command": "pasteURL.PasteURL"
+  },
+  {
+    "key": "ctrl+alt+p",
+    "command": "-pasteURL.PasteURL"
   }
 ]
