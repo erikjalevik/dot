@@ -1,64 +1,42 @@
 {
-  "breadcrumbs.enabled": true,
-  "editor.wordWrap": "off",
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "editor.acceptSuggestionOnEnter": "off",
+  "editor.autoClosingQuotes": "never",
+  "editor.fontSize": 11,
+  "editor.fontLigatures": "'calt', 'liga', 'dlig', 'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06'",
+  "editor.fontFamily": "'Monaspace Neon', Menlo, Monaco, 'Courier New', monospace",
+  "editor.lineHeight": 1.6,
+  "editor.inlineSuggest.suppressSuggestions": true,
   "editor.minimap.enabled": false,
+  "editor.tabCompletion": "on",
   "editor.tabSize": 2,
-  "editor.formatOnSave": false,
-  "editor.snippetSuggestions": "top",
   "editor.renderWhitespace": "all",
-  "editor.renderControlCharacters": true,
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
-  },
-  "editor.quickSuggestions": {
-    "comments": "on",
-    "strings": "on",
-    "other": "on"
-  },
-  "editor.hover.enabled": true,
   "editor.detectIndentation": false,
-  "explorer.openEditors.visible": 25,
+  "editor.snippetSuggestions": "top",
+  "editor.suggest.snippetsPreventQuickSuggestions": false,
+  "editor.wordBasedSuggestions": "off",
   "explorer.autoReveal": false,
+  "explorer.openEditors.visible": 20, // height of editors pane before scrolling
   "extensions.ignoreRecommendations": true,
   "window.title": "${activeEditorMedium}${separator}${rootName}",
-  "workbench.editor.showTabs": false,
+  "workbench.editor.showTabs": "single",
   "workbench.editor.labelFormat": "medium",
   "workbench.editor.enablePreviewFromQuickOpen": false,
-  "workbench.editor.limit.perEditorGroup": true,
-  "workbench.editor.limit.enabled": true,
-  "eslint.lintTask.enable": true,
-  "eslint.validate": [
-    "html",
-    "javascript",
-    "javascriptreact",
-    "typescript",
-    "typescriptreact"
-  ],
+  "workbench.editor.limit.enabled": true, 
+  "workbench.editor.limit.value": 8, // max number of open editors
+  "workbench.editor.limit.perEditorGroup": true, // make max apply per group
   "bookmarks.navigateThroughAllFiles": false,
   "markdown.preview.breaks": true,
-  "[plaintext]": {
+  "[markdown]": {
+      // Needed for snippets to work in markdown
+      "editor.quickSuggestions": {
+        "other": true,
+        "comments": true,
+        "strings": true
+    },
     "editor.wordWrap": "on"
   },
-  "[markdown]": {
-    "editor.wordWrap": "on",
-    "editor.quickSuggestions": {
-      "comments": "on",
-      "strings": "on",
-      "other": "on"
-    }
-  },
-  "editor.fontSize": 11,
-  "editor.acceptSuggestionOnCommitCharacter": false,
-  "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "editor.inlineSuggest.enabled": true,
-  "editor.suggest.snippetsPreventQuickSuggestions": false,
-  "editor.wordBasedSuggestions": false,
-  "svelte.enable-ts-plugin": true,
-  "files.associations": {
-    "*.txt": "plaintext"
-  },
-  "editor.autoClosingQuotes": "never",
-  "cody.telemetry.level": "off"
+  "[plaintext]": {
+    "editor.wordWrap": "on"
+  }
 }
