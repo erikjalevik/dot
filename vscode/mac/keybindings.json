@@ -133,5 +133,13 @@
   {
     "key": "shift+f12",
     "command": "markdown.showPreviewToSide"
+  },
+  {
+    "key": "alt+cmd+v",
+    "command": "pasteURL.PasteURL"
+  },
+  {
+    "key": "ctrl+alt+p",
+    "command": "-pasteURL.PasteURL"
   }
 ]
