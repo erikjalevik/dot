@@ -1,9 +1,8 @@
 {
   "editor.acceptSuggestionOnCommitCharacter": false,
-  "editor.acceptSuggestionOnEnter": "off",
   "editor.autoClosingQuotes": "never",
   "editor.fontSize": 11,
-  "editor.fontLigatures": "'calt', 'liga', 'dlig', 'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06'",
+  "editor.fontLigatures": "'calt', 'liga', 'dlig', 'ss01', 'ss02', 'ss03', 'ss04', 'ss06'",
   "editor.fontFamily": "'Monaspace Neon', Menlo, Monaco, 'Courier New', monospace",
   "editor.lineHeight": 1.6,
   "editor.inlineSuggest.suppressSuggestions": true,
@@ -16,17 +15,22 @@
   "editor.suggest.snippetsPreventQuickSuggestions": false,
   "editor.wordBasedSuggestions": "off",
   "explorer.autoReveal": false,
-  "explorer.openEditors.visible": 20, // height of editors pane before scrolling
+  "explorer.openEditors.visible": 22, // height of editors pane before scrolling
   "extensions.ignoreRecommendations": true,
   "window.title": "${activeEditorMedium}${separator}${rootName}",
   "workbench.editor.showTabs": "single",
   "workbench.editor.labelFormat": "medium",
   "workbench.editor.enablePreviewFromQuickOpen": false,
   "workbench.editor.limit.enabled": true, 
-  "workbench.editor.limit.value": 8, // max number of open editors
+  "workbench.editor.limit.value": 10, // max number of open editors
   "workbench.editor.limit.perEditorGroup": true, // make max apply per group
   "bookmarks.navigateThroughAllFiles": false,
   "markdown.preview.breaks": true,
+  "typescript.updateImportsOnFileMove.enabled": "prompt",
+  "typescript.preferences.preferTypeOnlyAutoImports": true,
+  "typescript.preferTypeOnlyAutoImports": true, // workaround until https://github.com/microsoft/vscode/pull/201376
+  "typescript.preferences.renameMatchingJsxTags": true,
+  "typescript.preferences.useAliasesForRenames": false,
   "[markdown]": {
       // Needed for snippets to work in markdown
       "editor.quickSuggestions": {
@@ -38,5 +42,5 @@
   },
   "[plaintext]": {
     "editor.wordWrap": "on"
-  }
+  },
 }

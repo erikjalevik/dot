@@ -88,7 +88,7 @@
     "command": "markdown.showSource"
   },
   {
-    "key": "ctrl+alt+oem_8",
+    "key": "ctrl+oem_8",
     "command": "workbench.action.toggleSidebarVisibility"
   },
   {
@@ -112,5 +112,15 @@
   {
     "key": "ctrl+alt+p",
     "command": "-pasteURL.PasteURL"
+  },
+  {
+    "key": "ctrl+backspace",
+    "command": "editor.action.deleteLines",
+    "when": "textInputFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+shift+k",
+    "command": "-editor.action.deleteLines",
+    "when": "textInputFocus && !editorReadonly"
   }
 ]
