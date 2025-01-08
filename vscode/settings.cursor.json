@@ -20,6 +20,7 @@
   "explorer.openEditors.visible": 22, // height of editors pane before scrolling
   "extensions.ignoreRecommendations": true,
   "window.title": "${activeEditorMedium}${separator}${rootName}",
+  "workbench.colorTheme": "Default Dark Modern",
   "workbench.editor.customLabels.patterns": {
     // Show Sveltekit +page etc files with their parent dir
     "**/*+*.*": "${dirname}/${filename}.${extname}"
