@@ -1,4 +1,5 @@
 {
+  // --- Built-ins ---
   "editor.acceptSuggestionOnCommitCharacter": false,
   "editor.autoClosingQuotes": "never",
   "editor.fontSize": 11,
@@ -12,35 +13,54 @@
   "editor.renderWhitespace": "all",
   "editor.detectIndentation": false,
   "editor.snippetSuggestions": "top",
+  "editor.stickyScroll.enabled": false,
   "editor.suggest.snippetsPreventQuickSuggestions": false,
   "editor.wordBasedSuggestions": "off",
   "explorer.autoReveal": false,
   "explorer.openEditors.visible": 22, // height of editors pane before scrolling
   "extensions.ignoreRecommendations": true,
   "window.title": "${activeEditorMedium}${separator}${rootName}",
+  "workbench.editor.customLabels.patterns": {
+    // Show Sveltekit +page etc files with their parent dir
+    "**/*+*.*": "${dirname}/${filename}.${extname}"
+  },
   "workbench.editor.showTabs": "single",
   "workbench.editor.labelFormat": "medium",
   "workbench.editor.enablePreviewFromQuickOpen": false,
-  "workbench.editor.limit.enabled": true, 
+  "workbench.editor.limit.enabled": true,
   "workbench.editor.limit.value": 10, // max number of open editors
   "workbench.editor.limit.perEditorGroup": true, // make max apply per group
+  // --- Extensions ---
   "bookmarks.navigateThroughAllFiles": false,
+  "eslint.format.enable": true,
+  "html.autoClosingTags": false,
+  "javascript.autoClosingTags": false,
   "markdown.preview.breaks": true,
-  "typescript.updateImportsOnFileMove.enabled": "prompt",
+  "svelte.enable-ts-plugin": true,
+  "svelte.plugin.svelte.defaultScriptLanguage": "ts",
+  "typescript.autoClosingTags": false,
   "typescript.preferences.preferTypeOnlyAutoImports": true,
-  "typescript.preferTypeOnlyAutoImports": true, // workaround until https://github.com/microsoft/vscode/pull/201376
   "typescript.preferences.renameMatchingJsxTags": true,
   "typescript.preferences.useAliasesForRenames": false,
   "[markdown]": {
-      // Needed for snippets to work in markdown
-      "editor.quickSuggestions": {
-        "other": true,
-        "comments": true,
-        "strings": true
+    // Needed for snippets to work in markdown
+    "editor.quickSuggestions": {
+      "other": true,
+      "comments": true,
+      "strings": true
     },
     "editor.wordWrap": "on"
   },
   "[plaintext]": {
     "editor.wordWrap": "on"
   },
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[svelte]": {
+    "editor.defaultFormatter": "svelte.svelte-vscode"
+  }
 }
