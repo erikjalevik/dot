@@ -33,6 +33,7 @@
   "workbench.editor.limit.perEditorGroup": true, // make max apply per group
   // --- Extensions ---
   "bookmarks.navigateThroughAllFiles": false,
+  "cursor.cpp.enablePartialAccepts": true,
   "eslint.format.enable": true,
   "html.autoClosingTags": false,
   "javascript.autoClosingTags": false,
