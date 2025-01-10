@@ -37,6 +37,7 @@
   "eslint.format.enable": true,
   "html.autoClosingTags": false,
   "javascript.autoClosingTags": false,
+  "json.format.keepLines": true,
   "markdown.preview.breaks": true,
   "svelte.enable-ts-plugin": true,
   "svelte.plugin.svelte.defaultScriptLanguage": "ts",
@@ -61,6 +62,21 @@
   },
   "[json]": {
     "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features",
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features",
   },
   "[svelte]": {
     "editor.defaultFormatter": "svelte.svelte-vscode"
