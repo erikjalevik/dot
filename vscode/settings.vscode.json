@@ -1,11 +1,12 @@
 {
   // --- Built-ins ---
+  "debug.console.closeOnEnd": true,
   "editor.acceptSuggestionOnCommitCharacter": false,
+  "editor.accessibilitySupport": "off",
   "editor.autoClosingQuotes": "never",
   "editor.fontSize": 11,
-  "editor.fontLigatures": "'calt', 'liga', 'dlig', 'ss01', 'ss02', 'ss03', 'ss04', 'ss06'",
   "editor.fontFamily": "'Monaspace Neon', Menlo, Monaco, 'Courier New', monospace",
-  "editor.lineHeight": 1.6,
+  "editor.fontLigatures": "'calt', 'liga', 'dlig', 'ss01', 'ss02', 'ss03', 'ss04', 'ss06'",
   "editor.inlineSuggest.suppressSuggestions": true,
   "editor.minimap.enabled": false,
   "editor.tabCompletion": "on",
@@ -17,10 +18,18 @@
   "editor.suggest.snippetsPreventQuickSuggestions": false,
   "editor.wordBasedSuggestions": "off",
   "explorer.autoReveal": false,
+  "explorer.confirmPasteNative": false,
   "explorer.openEditors.visible": 22, // height of editors pane before scrolling
   "extensions.ignoreRecommendations": true,
+  "files.associations": {
+    "*.talon": "python",
+    "*.talon-list": "python",
+    "*.mdx": "markdown"
+  },
+  "terminal.integrated.lineHeight": 1.5,
+  "terminal.integrated.defaultLocation": "editor",
   "window.title": "${activeEditorMedium}${separator}${rootName}",
-  "workbench.colorTheme": "Default Dark Modern",
+  "workbench.colorTheme": "Dark Modern",
   "workbench.editor.customLabels.patterns": {
     // Show Sveltekit +page etc files with their parent dir
     "**/*+*.*": "${dirname}/${filename}.${extname}"
@@ -33,18 +42,23 @@
   "workbench.editor.limit.perEditorGroup": true, // make max apply per group
   // --- Extensions ---
   "bookmarks.navigateThroughAllFiles": false,
-  "cursor.cpp.enablePartialAccepts": true,
+  "claudeCode.preferredLocation": "panel",
+  "chat.viewSessions.orientation": "stacked",
+  "chat.viewSessions.enabled": false,
   "eslint.format.enable": true,
   "html.autoClosingTags": false,
-  "javascript.autoClosingTags": false,
+  "git.blame.editorDecoration.enabled": true,
+  "git.openRepositoryInParentFolders": "never",
+  "github.copilot.nextEditSuggestions.eagerness": "high",
+  "github.copilot.nextEditSuggestions.extendedRange": true,
+  "js/ts.autoClosingTags.enabled": false,
+  "js/ts.preferences.preferTypeOnlyAutoImports": true,
+  "js/ts.preferences.renameMatchingJsxTags": true,
+  "js/ts.preferences.useAliasesForRenames": false,
   "json.format.keepLines": true,
   "markdown.preview.breaks": true,
   "svelte.enable-ts-plugin": true,
   "svelte.plugin.svelte.defaultScriptLanguage": "ts",
-  "typescript.autoClosingTags": false,
-  "typescript.preferences.preferTypeOnlyAutoImports": true,
-  "typescript.preferences.renameMatchingJsxTags": true,
-  "typescript.preferences.useAliasesForRenames": false,
   "[markdown]": {
     // Needed for snippets to work in markdown
     "editor.quickSuggestions": {
@@ -80,5 +94,10 @@
   },
   "[svelte]": {
     "editor.defaultFormatter": "svelte.svelte-vscode"
+  },
+  "workbench.editorAssociations": {
+    "*.copilotmd": "vscode.markdown.preview.editor",
+    "{hexdiff}:/**/*.*": "hexEditor.hexedit",
+    "*.svg": "default"
   }
 }

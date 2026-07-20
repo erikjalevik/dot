@@ -99,11 +99,7 @@
     "key": "alt+cmd+1",
     "command": "workbench.action.editorLayoutSingle"
   },
-  {
-    "key": "alt+cmd+n",
-    "command": "explorer.newFile"
-  },
-  {
+	{
     "key": "f12",
     "command": "markdown.showPreview",
     "when": "!notebookEditorFocused && editorLangId == 'markdown'"
@@ -149,5 +145,81 @@
   {
     "key": "alt+cmd+b",
     "command": "-workbench.action.toggleAuxiliaryBar"
+  },
+  {
+    "key": "alt+\\",
+    "command": "editor.action.inlineSuggest.trigger"
+  },
+  {
+    "key": "shift+enter",
+    "command": "workbench.action.terminal.sendSequence",
+    "args": {
+      "text": "\u001b\r"
+    },
+    "when": "terminalFocus"
+  },
+  {
+    "key": "cmd+numpad_add",
+    "command": "-workbench.action.browser.zoomIn",
+    "when": "browserFocused && browserHasUrl && !browserHasError && activeEditor == 'workbench.editor.browser'"
+  },
+  {
+    "key": "shift+cmd+=",
+    "command": "-workbench.action.browser.zoomIn",
+    "when": "browserFocused && browserHasUrl && !browserHasError && activeEditor == 'workbench.editor.browser'"
+  },
+  {
+    "key": "cmd+=",
+    "command": "-workbench.action.browser.zoomIn",
+    "when": "browserFocused && browserHasUrl && !browserHasError && activeEditor == 'workbench.editor.browser'"
+  },
+  {
+    "key": "cmd+numpad_subtract",
+    "command": "-workbench.action.browser.zoomOut",
+    "when": "browserFocused && browserHasUrl && !browserHasError && activeEditor == 'workbench.editor.browser'"
+  },
+  {
+    "key": "shift+cmd+-",
+    "command": "-workbench.action.browser.zoomOut",
+    "when": "browserFocused && browserHasUrl && !browserHasError && activeEditor == 'workbench.editor.browser'"
+  },
+  {
+    "key": "cmd+-",
+    "command": "-workbench.action.browser.zoomOut",
+    "when": "browserFocused && browserHasUrl && !browserHasError && activeEditor == 'workbench.editor.browser'"
+  },
+  {
+    "key": "cmd+numpad_add",
+    "command": "-workbench.action.zoomIn"
+  },
+  {
+    "key": "shift+cmd+=",
+    "command": "-workbench.action.zoomIn"
+  },
+  {
+    "key": "cmd+=",
+    "command": "-workbench.action.zoomIn"
+  },
+  {
+    "key": "cmd+numpad_subtract",
+    "command": "-workbench.action.zoomOut"
+  },
+  {
+    "key": "shift+cmd+-",
+    "command": "-workbench.action.zoomOut"
+  },
+  {
+    "key": "cmd+-",
+    "command": "-workbench.action.zoomOut"
+  },
+  {
+    "key": "alt+cmd+k",
+    "command": "-claude-code.insertAtMentioned",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "alt+cmd+k",
+    "command": "-keybindings.editor.recordSearchKeys",
+    "when": "inKeybindings && inKeybindingsSearch"
   }
 ]
