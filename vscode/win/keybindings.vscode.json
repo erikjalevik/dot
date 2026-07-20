@@ -122,5 +122,72 @@
     "key": "ctrl+shift+k",
     "command": "-editor.action.deleteLines",
     "when": "textInputFocus && !editorReadonly"
+  },
+  {
+    "key": "alt+oem_5",
+    "command": "editor.action.inlineSuggest.trigger"
+  },
+  {
+    "key": "ctrl+numpad0",
+    "command": "-workbench.action.browser.resetZoom",
+    "when": "browserFocused && browserHasUrl && !browserHasError && activeEditor == 'workbench.editor.browser'"
+  },
+  {
+    "key": "ctrl+numpad_add",
+    "command": "-workbench.action.browser.zoomIn",
+    "when": "browserFocused && browserHasUrl && !browserHasError && activeEditor == 'workbench.editor.browser'"
+  },
+  {
+    "key": "ctrl+shift+oem_plus",
+    "command": "-workbench.action.browser.zoomIn",
+    "when": "browserFocused && browserHasUrl && !browserHasError && activeEditor == 'workbench.editor.browser'"
+  },
+  {
+    "key": "ctrl+oem_plus",
+    "command": "-workbench.action.browser.zoomIn",
+    "when": "browserFocused && browserHasUrl && !browserHasError && activeEditor == 'workbench.editor.browser'"
+  },
+  {
+    "key": "ctrl+numpad_subtract",
+    "command": "-workbench.action.browser.zoomOut",
+    "when": "browserFocused && browserHasUrl && !browserHasError && activeEditor == 'workbench.editor.browser'"
+  },
+  {
+    "key": "ctrl+shift+oem_minus",
+    "command": "-workbench.action.browser.zoomOut",
+    "when": "browserFocused && browserHasUrl && !browserHasError && activeEditor == 'workbench.editor.browser'"
+  },
+  {
+    "key": "ctrl+oem_minus",
+    "command": "-workbench.action.browser.zoomOut",
+    "when": "browserFocused && browserHasUrl && !browserHasError && activeEditor == 'workbench.editor.browser'"
+  },
+  {
+    "key": "ctrl+numpad0",
+    "command": "-workbench.action.zoomReset"
+  },
+  {
+    "key": "ctrl+numpad_add",
+    "command": "-workbench.action.zoomIn"
+  },
+  {
+    "key": "ctrl+shift+oem_plus",
+    "command": "-workbench.action.zoomIn"
+  },
+  {
+    "key": "ctrl+oem_plus",
+    "command": "-workbench.action.zoomIn"
+  },
+  {
+    "key": "ctrl+numpad_subtract",
+    "command": "-workbench.action.zoomOut"
+  },
+  {
+    "key": "ctrl+shift+oem_minus",
+    "command": "-workbench.action.zoomOut"
+  },
+  {
+    "key": "ctrl+oem_minus",
+    "command": "-workbench.action.zoomOut"
   }
 ]
