@@ -47,7 +47,7 @@
   "chat.viewSessions.enabled": false,
   "eslint.format.enable": true,
   "html.autoClosingTags": false,
-  "git.blame.editorDecoration.enabled": true,
+  "git.blame.editorDecoration.enabled": false,
   "git.openRepositoryInParentFolders": "never",
   "github.copilot.nextEditSuggestions.eagerness": "high",
   "github.copilot.nextEditSuggestions.extendedRange": true,
