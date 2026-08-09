@@ -7,7 +7,7 @@ source ~/dev/dot/.profile
 bindkey -s "^[OM" "^M"
 
 # Set prompt
-PROMPT='%(?.%F{green}√.%F{red}?%?)%f %B%F{240}%~ >%f%b '
+PROMPT='%(?.%F{green}√.%F{red}?%?)%f %B%F{243}%~ >%f%b '
 
 # Set filename of zsh history
 HISTFILE=~/.zsh_history
