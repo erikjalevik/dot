@@ -47,7 +47,7 @@
   "chat.viewSessions.enabled": false,
   "eslint.format.enable": true,
   "html.autoClosingTags": false,
-  "git.blame.editorDecoration.enabled": false,
+  "git.blame.editorDecoration.enabled": true,
   "git.openRepositoryInParentFolders": "never",
   "github.copilot.nextEditSuggestions.eagerness": "high",
   "github.copilot.nextEditSuggestions.extendedRange": true,
@@ -99,5 +99,13 @@
     "*.copilotmd": "vscode.markdown.preview.editor",
     "{hexdiff}:/**/*.*": "hexEditor.hexedit",
     "*.svg": "default"
-  }
+  },
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+  },
+  "workbench.experimental.modernUI": false,
+  "editor.lineHeight": 1.5
 }
